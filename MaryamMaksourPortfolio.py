@@ -14,8 +14,14 @@ st.write("---")
 
 # About Me
 about_me = """
-    I am a Data Scientist with expertise in machine learning, natural language processing (NLP), and data analysis. 
-    Proficient in Python, C++, and advanced data tools, I am passionate about solving real-world challenges and mentoring others in the field. 
+    I am a passionate Data Scientist with expertise in machine learning, natural language processing (NLP), and data analysis. My technical skills include
+    Python, C++, and advanced data tools, enabling me to build predictive models, analyze complex datasets, and derive actionable insights.
+
+    Over the years, I have gained hands-on experience in AI development, competitive programming, and mentoring, 
+    which has sharpened my problem-solving and collaboration skills. I am driven by a desire to tackle real-world challenges, 
+    innovate with data-driven solutions, and contribute to impactful projects.
+
+    Currently, I am seeking opportunities to apply my skills in dynamic and collaborative environments, helping organizations leverage data to achieve their strategic goals.
     """
 
 st.header("About Me")
@@ -86,40 +92,76 @@ if columns[2].button("Gesture Volume Control"):
 
 if run != "null":
     run()
-    
-#    #("Student Admission Prediction", "https://github.com/MaryamMaksour/Admission-Prediction-/tree/main"),
-# chat bot
-# Finger counter project Code
 
-
-#############################################
 
 
 st.write("---")
 
+
+
+
+
 # Skills
 st.header("Skills")
-columns = st.columns(2)
+columns = st.columns(3)
 
-columns[0].write("### Programming & Tools")
+columns[0].write("### Programming Languages")
 columns[0].write(
     """
-    - Python, C++
-    - Pandas, NumPy, Matplotlib, Seaborn
-    - TensorFlow, Scikit-learn, HuggingFace, LangChain
-    - SQL, FastAPI, REST APIs
+    - Python (Pandas, NumPy, Matplotlib, Seaborn)
+    - C++ (Advanced)
+    - SQL
+    - R (Basics)
     """
 )
 
-columns[1].write("### Additional Skills")
+columns[1].write("### Machine Learning & AI")
 columns[1].write(
-    """
-    - Power BI (Basics)
-    - R (Basics)
-    - Excel (Advanced)
-    - Arabic (Native), English (B2)
+    """    
+    - TensorFlow, Scikit-learn
+    - Natural Language Processing (NLP)
+    - LangChain, HuggingFace
+    - Linear Regression, K-means Clustering, SVM
     """
 )
+
+columns[2].write("### Data Analysis & Visualization")
+columns[2].write(
+    """    
+    - Data Cleaning and Wrangling (Pandas, Excel)
+    - Visualization Tools (Matplotlib, Seaborn, Power BI)
+    """
+)
+
+columns = st.columns(3)
+
+columns[0].write("### Development Tools & Frameworks")
+columns[0].write(
+    """
+    - FastAPI, REST APIs
+    - JSON
+    - Streamlit
+    """
+)
+
+columns[1].write("### Soft Skills")
+columns[1].write(
+    """    
+    - Problem-solving and critical thinking
+    - Leadership and mentoring
+    - Collaboration and communication
+    """
+)
+
+columns[2].write("### Languages")
+columns[2].write(
+    """    
+    - Arabic (Native)
+    - English (Advanced - B2 Level)
+    """
+)
+
+
 
 st.write("---")
 
