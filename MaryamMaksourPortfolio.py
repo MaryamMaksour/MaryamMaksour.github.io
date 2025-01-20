@@ -6,10 +6,38 @@ import AIPersonalTrainer, VolumeControl
 # Page Configuration
 st.set_page_config(page_title="Maryam Maksour Portfolio", page_icon=":sparkles:", layout="wide")
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #f5f5f5;
+        background: linear-gradient(180deg, rgba(0,45,105,1) 0%, rgba(0,98,130,1) 50%, rgba(0,155,145,1) 100%);
 
+        background-size: cover;
+        background-position: center;
+    }
+
+    div.stButton > button:first-child {
+        background-color: transparent;
+        color: #ffffff;
+        border: 2px solid #0073e6;
+        border-radius: 4px;
+        padding: 8px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    div.stButton > button:first-child:hover {
+        background-color: #0073e6;
+        color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # Header
 st.title("Maryam Maksour Portfolio")
-st.write("Data Scientist | Machine Learning  | AI Developer")
+st.write("Data Scientist | Machine Learning | AI Developer")
 st.write("---")
 
 # About Me
@@ -132,7 +160,7 @@ columns[2].write(
     - Visualization Tools (Matplotlib, Seaborn, Power BI)
     """
 )
-
+st.write("---")
 columns = st.columns(3)
 
 columns[0].write("### Development Tools & Frameworks")
