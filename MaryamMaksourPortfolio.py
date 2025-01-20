@@ -9,7 +9,7 @@ st.set_page_config(page_title="Maryam Maksour Portfolio", page_icon=":sparkles:"
 
 # Header
 st.title("Maryam Maksour Portfolio")
-st.write("Results-driven Data Scientist | Machine Learning Enthusiast | AI Developer")
+st.write("Data Scientist | Machine Learning  | AI Developer")
 st.write("---")
 
 # About Me
