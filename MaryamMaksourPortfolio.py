@@ -9,13 +9,7 @@ st.set_page_config(page_title="Maryam Maksour Portfolio", page_icon=":sparkles:"
 st.markdown(
     """
     <style>
-    .stApp {
-        background-color: #f5f5f5;
-        background: linear-gradient(180deg, rgba(0,45,105,1) 0%, rgba(0,98,130,1) 50%, rgba(0,155,145,1) 100%);
-
-        background-size: cover;
-        background-position: center;
-    }
+    
 
     div.stButton > button:first-child {
         background-color: transparent;
